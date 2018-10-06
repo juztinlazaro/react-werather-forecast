@@ -1,0 +1,5 @@
+export const GET_BLOG_EPIC = 'GET_BLOG_EPIC';
+export const GET_BLOG_LOADING = 'GET_BLOG_LOADING';
+export const GET_BLOG_SUCCESS = 'GET_BLOG_SUCCESS';
+export const GET_BLOG_ERROR = 'GET_BLOG_ERROR';
+export const GET_BLOG_CANCEL = 'GET_BLOG_CANCEL';

@@ -1,0 +1,27 @@
+.Home-section {
+  .table-ui {
+    width: 100%;
+    margin: 20px 0px;
+
+    svg {
+      height: 150px;
+    }
+  }
+
+  .table-ui td,
+  .table-ui th {
+    vertical-align: middle !important;
+    text-align: center !important;
+    padding: 10px 0px;
+  }
+
+  .inpurt-group {
+    margin: 20px 0px;
+  }
+
+  .table-ui td:first-of-type,
+  .table-ui td:first-of-type > div {
+    height: 200px;
+    width: 250px;
+  }
+}
