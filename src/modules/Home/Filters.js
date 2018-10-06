@@ -38,7 +38,7 @@ const Filters = props => {
         <Col md={12}>
           <h5 className="_text-pumpkin">City:</h5>
           <Search
-            placeholder="Search city ex. Pasig City"
+            placeholder="Search city ex. Pasig"
             onChange={props.onGetCity}
             style={{ width: 300 }}
             disabled={props.allowCity}
