@@ -8,7 +8,6 @@ import 'rxjs';
 
 import './assets/css/styles.css';
 import 'antd/dist/antd.css';
-import 'ubidy_ui_kit/css/main.css';
 import 'flag-icon-css/css/flag-icon.css';
 
 import App from './rootApp/App';

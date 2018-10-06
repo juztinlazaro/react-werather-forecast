@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Chart from 'Components/Chart';
 import GoogleMap from 'Components/GoogleMap';
 import Notification from 'antd/lib/notification';
-import PlainSlate from 'ubidy_ui_kit/lib/Slate/PlainSlate';
+import Alert from 'antd/lib/alert';
 
 class WeatherList extends Component {
   renderWeather(cityData) {
@@ -71,10 +71,11 @@ class WeatherList extends Component {
             <tbody>{this.props.weather.weather.map(this.renderWeather)}</tbody>
           </table>
         ) : (
-          <PlainSlate
-            icon="heat-map"
-            description="No location selected"
-            border="dashed"
+          <Alert
+            message="No Location searched"
+            description="Please searched a location for weather forecast."
+            type="info"
+            showIcon
           />
         )}
       </div>
