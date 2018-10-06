@@ -6,7 +6,7 @@ import { headers } from 'Common/constants/headers';
 import { ajax } from 'rxjs/observable/dom/ajax';
 
 const API_KEY = '54755288beb8212b2fd9e7ca2b7399bf';
-const getWeatherUrl = `//api.openweathermap.org/data/2.5/forecast?&appid=${API_KEY}`;
+const getWeatherUrl = `https://api.openweathermap.org/data/2.5/forecast?&appid=${API_KEY}`;
 
 export const getWeatherEpic = action$ =>
   action$.ofType(TYPES.GET_WEATHER_EPIC).switchMap(action => {
